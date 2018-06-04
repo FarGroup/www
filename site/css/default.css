@@ -1,0 +1,118 @@
+h2{
+  font-family: Verdana, sans-serif; font-size: 23px; color:#4F98FF;
+  letter-spacing:-0.02em;
+  margin-top:0;
+  margin-bottom:0;
+  background-color: white;
+}
+
+body {
+  margin-left:10%;
+  margin-right:10%;
+  margin-top:0;
+  background-color: white;
+
+  font-family: Verdana, sans-serif;
+  font-size: 13px;
+  color:#525556;
+
+  margin-bottom:0;
+  padding:0;
+}
+
+table {
+  font-family: Verdana, sans-serif;
+  font-size: 13px;
+  color:#525556;
+  background-color: white;
+}
+
+.header_table {
+  font-family: Verdana, sans-serif;
+  font-size: 11px;
+  font-weight:bold;
+  color:#525556;
+  background-color:#A7B2C4;
+}
+
+
+ul { list-style:disc; }
+
+.body_link {
+  color:#448AD6;
+  background-color: white;
+}
+
+.body_comment {
+  color:gray;
+  font-size: 10px;
+  background-color: white;
+}
+
+
+.footer {
+  background-image:url(../img/line3.png);
+  background-repeat:repeat-x;
+}
+
+.top {
+  background-image:url(../img/linex.png);
+  background-repeat:repeat-x;
+  height:6px;
+  line-height:0%;
+  font-size:0;
+}
+
+.header_link {
+  color:white;
+  font-family: Verdana, sans-serif;
+  font-weight:bold;
+  font-size: 11px;
+  background-color:#A7B2C4;
+}
+
+.opensource_link {
+  /*color:#FFBA0A;*/
+  color:#DAFF00;
+  font-family: Verdana, sans-serif;
+  font-weight:bold;
+  font-size: 11px;
+  background-color:#A7B2C4;
+}
+
+pre
+{
+  white-space: pre-wrap; /* CSS2.1 compliant */
+  white-space: -moz-pre-wrap; /* Mozilla-based browsers */
+  OQwhite-space: o-pre-wrap; /* Opera 7+ */
+}
+
+.bordered{
+	border:20px solid white;
+}
+
+#xxx:hover{
+	border: 20px solid lightgray; 
+	border-radius:7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	background-color:red;
+}
+
+a img.bordered {
+	border:20px solid white;
+}
+
+a:hover img.bordered {
+	border: 20px solid lightgray; 
+	border-radius:7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+}
+
+a:hover css.bordered {
+	border: 20px solid lightgray; 
+	border-radius:7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+}
