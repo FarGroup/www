@@ -111,15 +111,15 @@
 					<td align=\"right\" valign=\"top\" class=\"body_comment\">";
 
 					if ( !strcmp ($lang, "ru") )
-						print "русский&nbsp;|&nbsp;<a class=\"body_comment\" href=\"".$current_page_string."?l=en\">english</a>";
+						print "СЂСѓСЃСЃРєРёР№&nbsp;|&nbsp;<a class=\"body_comment\" href=\"".$current_page_string."?l=en\">english</a>";
 					else
-						print "<a class=\"body_comment\" href=\"".$current_page_string."?l=ru\">русский</a>&nbsp;|&nbsp;english";
+						print "<a class=\"body_comment\" href=\"".$current_page_string."?l=ru\">СЂСѓСЃСЃРєРёР№</a>&nbsp;|&nbsp;english";
 
 		print "</td></tr>
 				</table>
 			</div>";
 
-//<td align=right valign=top><a class=\"body_comment\" href=\"".$current_page_string."?l=ru\">русский</a><font size=1>|</font><a class=\"body_comment\" href=\"".$current_page_string."?l=en\">english</a></td>
+//<td align=right valign=top><a class=\"body_comment\" href=\"".$current_page_string."?l=ru\">СЂСѓСЃСЃРєРёР№</a><font size=1>|</font><a class=\"body_comment\" href=\"".$current_page_string."?l=en\">english</a></td>
 
 		print "<div align=\"right\"><h2>".$header_descriptions[$current_page]."</h2></div>";
 		print "<div class=\"footer\">&nbsp;</div>";

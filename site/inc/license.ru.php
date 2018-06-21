@@ -33,6 +33,6 @@ farcolorW.pas, farkeysW.pas and pluginW.pas; can be distributed under any other
 possible license with no implications from the above license on them.
 </pre>
 
-<p>О лицензиях в стиле BSD можно почитать <a class="body_link" href="http://ru.wikipedia.org/wiki/BSD_license">здесь</a>.</p>
+<p>Рћ Р»РёС†РµРЅР·РёСЏС… РІ СЃС‚РёР»Рµ BSD РјРѕР¶РЅРѕ РїРѕС‡РёС‚Р°С‚СЊ <a class="body_link" href="http://ru.wikipedia.org/wiki/BSD_license">Р·РґРµСЃСЊ</a>.</p>
 
 </div>

@@ -24,7 +24,7 @@ function GetClientLang()
     {
         $lang = !empty($_SERVER["HTTP_ACCEPT_CHARSET"]) ? $_SERVER["HTTP_ACCEPT_CHARSET"] : "";
 
-        if (strpos($lang,"windows-1251")!==FALSE) // тут надо именно !==
+        if (strpos($lang,"windows-1251")!==FALSE) // С‚СѓС‚ РЅР°РґРѕ РёРјРµРЅРЅРѕ !==
             $lang="ru";
         else if (strpos($lang,"iso-8859-5")!==FALSE)
             $lang="ru";

@@ -2,7 +2,7 @@
 
 $header_pages = array ("index.php?l=ru", "news.php?l=ru", "screenshots.php?l=ru", "download.php?l=ru", "plugins.php?l=ru", "problems.php?l=ru", "links.php?l=ru", "https://plugring.farmanager.com/index.php?l=ru", "https://forum.farmanager.com", "opensource.php?l=ru", "license.php?l=ru");
 $header_pages_strip = array ("index.php", "news.php", "screenshots.php", "download.php", "plugins.php", "problems.php", "links.php", "https://plugring.farmanager.com/index.php", "https://forum.farmanager.com", "opensource.php", "license.php");
-$header_descriptions = array ("главная", "новости", "галерея", "загрузить", "плагины", "проблемы", "ссылки", "plugring", "форум", "исходный&nbsp;код", "лицензия");
+$header_descriptions = array ("РіР»Р°РІРЅР°СЏ", "РЅРѕРІРѕСЃС‚Рё", "РіР°Р»РµСЂРµСЏ", "Р·Р°РіСЂСѓР·РёС‚СЊ", "РїР»Р°РіРёРЅС‹", "РїСЂРѕР±Р»РµРјС‹", "СЃСЃС‹Р»РєРё", "plugring", "С„РѕСЂСѓРј", "РёСЃС…РѕРґРЅС‹Р№&nbsp;РєРѕРґ", "Р»РёС†РµРЅР·РёСЏ");
 $current_page_opensource = 9;
 
 function do_footer ()
@@ -18,7 +18,7 @@ function do_footer ()
 	</div>";*/
 
 	print "<table width=\"100%\"><tr><td>";
-	do_comment ("Far Manager &copy; 1996—2000 Eugene Roshal, &copy; 2000—".date("Y")." Far Group<br>Site design &copy 2006—".date("Y")." WARP ItSelf");
+	do_comment ("Far Manager &copy; 1996вЂ”2000 Eugene Roshal, &copy; 2000вЂ”".date("Y")." Far Group<br>Site design &copy 2006вЂ”".date("Y")." WARP ItSelf");
 	print "</td><td>";
 	do_comment ("Hosted by<br><br><a class=\"body_link\" href=\"http://www.trunkmobile.ru/\"><img src=\"img/host.png\" alt=\"www.trunkmobile.ru\"></img></a>", "right");
 	print "</td></tr></table>";
@@ -26,7 +26,7 @@ function do_footer ()
 /*	print "<div><p><table width=40% align=left bgcolor=#B1BBD3 border=0 cellspacing=0 cellpadding=0>
 			<tr>
 				<td width=11>&nbsp;</td>
-				<td valign=top class=\"footer_comment\">Far Manager &copy; 1996-2000 Eugene Roshal, &copy; 2000-2006 Far Group<br>Студия по производству дешевки \"Мы работаем за еду!\"</td>";
+				<td valign=top class=\"footer_comment\">Far Manager &copy; 1996-2000 Eugene Roshal, &copy; 2000-2006 Far Group<br>РЎС‚СѓРґРёСЏ РїРѕ РїСЂРѕРёР·РІРѕРґСЃС‚РІСѓ РґРµС€РµРІРєРё \"РњС‹ СЂР°Р±РѕС‚Р°РµРј Р·Р° РµРґСѓ!\"</td>";
 	print "</tr></table></div>";*/
 
 }
