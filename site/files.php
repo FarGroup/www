@@ -1,4 +1,4 @@
 <?php
-$directory="nightly";
+$directory="files";
 include ("listing.php");
 ?>
