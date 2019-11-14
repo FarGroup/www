@@ -1,8 +1,8 @@
 <?php
 
-$header_pages = array ("index.php?l=en", "news.php?l=en", "screenshots.php?l=en", "download.php?l=en", "plugins.php?l=en", "problems.php?l=en", "links.php?l=en", "https://plugring.farmanager.com/index.php?l=en", "https://enforum.farmanager.com", "opensource.php?l=en", "license.php?l=en");
-$header_pages_strip = array ("index.php", "news.php", "screenshots.php", "download.php", "plugins.php", "problems.php", "links.php", "https://plugring.farmanager.com/index.php", "https://enforum.farmanager.com", "opensource.php", "license.php");
-$header_descriptions = array ("main", "news", "screenshots", "download", "plugins", "problems", "links", "plugring", "forum", "open&nbsp;source", "license");
+$header_pages = array ("index.php?l=en", "screenshots.php?l=en", "download.php?l=en", "plugins.php?l=en", "problems.php?l=en", "links.php?l=en", "https://plugring.farmanager.com/index.php?l=en", "https://enforum.farmanager.com", "opensource.php?l=en", "license.php?l=en");
+$header_pages_strip = array ("index.php", "screenshots.php", "download.php", "plugins.php", "problems.php", "links.php", "https://plugring.farmanager.com/index.php", "https://enforum.farmanager.com", "opensource.php", "license.php");
+$header_descriptions = array ("main", "screenshots", "download", "plugins", "problems", "links", "plugring", "forum", "open&nbsp;source", "license");
 $current_page_opensource = 9;
 
 function do_footer ()
