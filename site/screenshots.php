@@ -1,5 +1,5 @@
 <?php
-	$current_page = 2;
+	$current_page = 1;
 
 	include ("common.php");
 

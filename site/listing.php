@@ -1,5 +1,5 @@
 <?php
-$current_page = 3;
+$current_page = 2;
 include ("common.php");
 
 if ( !strcmp ($lang, "ru") )
