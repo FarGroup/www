@@ -6,7 +6,7 @@ solved.
 <p><b>1.</b> Make sure that the problem you've encountered is not an ordinary situation
 or a known problem: see Far Help, FAQ, TechInfo and WhatsNew. If it's
 possible, you should also search network resources for the answers (links to
-the resources are located in help chapter «Overview of plugin capabilities»).
+the resources are located in help chapter Â«Overview of plugin capabilitiesÂ»).
 Only if the problem is not known, move to step 2, otherwise there's no need
 to produce extra traffic, it does not stimulate developers in any way,
 but distracts them.
@@ -27,7 +27,7 @@ with the most recently installed ones, and every time check whether the
 problem still exists. If you have found the plugin causing the problem
 and the plugin is not included in the Far distribution, you should report
 the problem to the author of that plugin.
-  <p><b>2.3.</b> If the found «bad» plug-in is included in the Far distribution,
+  <p><b>2.3.</b> If the found Â«badÂ» plug-in is included in the Far distribution,
 or you failed to find out which plug-in is essential to reproduce the
 problem, inform Far developers about it (see step 3). If the problem is
 in the MultiArc plugin, see Step 4.

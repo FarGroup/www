@@ -1,11 +1,11 @@
 <?php
-$dl_history_msg = "Ïîëíîå ñîáðàíèå ñî÷èíåíèé";
-$dl_stable_builds = "Ñòàáèëüíûå ñáîðêè";
-$dl_nightly_builds = "Íî÷íûå ñáîðêè";
-$dl_old_versions = "Ñòàðûå âåðñèè";
-$dl_last_change = "Ïîñëåäíåå èçìåíåíèå";
-$dl_size = "ðàçìåð";
-$dl_bytes = "áàéò";
-$dl_full_changelog = "ïîëíûé ñïèñîê èçìåíåíèé";
+$dl_history_msg = "ÐŸÐ¾Ð»Ð½Ð¾Ðµ ÑÐ¾Ð±Ñ€Ð°Ð½Ð¸Ðµ ÑÐ¾Ñ‡Ð¸Ð½ÐµÐ½Ð¸Ð¹";
+$dl_stable_builds = "Ð¡Ñ‚Ð°Ð±Ð¸Ð»ÑŒÐ½Ñ‹Ðµ ÑÐ±Ð¾Ñ€ÐºÐ¸";
+$dl_nightly_builds = "ÐÐ¾Ñ‡Ð½Ñ‹Ðµ ÑÐ±Ð¾Ñ€ÐºÐ¸";
+$dl_old_versions = "Ð¡Ñ‚Ð°Ñ€Ñ‹Ðµ Ð²ÐµÑ€ÑÐ¸Ð¸";
+$dl_last_change = "ÐŸÐ¾ÑÐ»ÐµÐ´Ð½ÐµÐµ Ð¸Ð·Ð¼ÐµÐ½ÐµÐ½Ð¸Ðµ";
+$dl_size = "Ñ€Ð°Ð·Ð¼ÐµÑ€";
+$dl_bytes = "Ð±Ð°Ð¹Ñ‚";
+$dl_full_changelog = "Ð¿Ð¾Ð»Ð½Ñ‹Ð¹ ÑÐ¿Ð¸ÑÐ¾Ðº Ð¸Ð·Ð¼ÐµÐ½ÐµÐ½Ð¸Ð¹";
 $dl_changelog2_file = "changelog"
 ?>

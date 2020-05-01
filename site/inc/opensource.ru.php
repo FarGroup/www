@@ -1,22 +1,22 @@
 <div>
-<p>Начиная с версии 1.80 (26 октября 2007 г.) Far Manager распространяется вместе с исходным кодом под <a class="body_link" href="license.php?l=ru">модифицированной&nbsp;лицензией&nbsp;BSD</a>.
+<p>РќР°С‡РёРЅР°СЏ СЃ РІРµСЂСЃРёРё 1.80 (26 РѕРєС‚СЏР±СЂСЏ 2007 Рі.) Far Manager СЂР°СЃРїСЂРѕСЃС‚СЂР°РЅСЏРµС‚СЃСЏ РІРјРµСЃС‚Рµ СЃ РёСЃС…РѕРґРЅС‹Рј РєРѕРґРѕРј РїРѕРґ <a class="body_link" href="license.php?l=ru">РјРѕРґРёС„РёС†РёСЂРѕРІР°РЅРЅРѕР№&nbsp;Р»РёС†РµРЅР·РёРµР№&nbsp;BSD</a>.
 </p>
 
-<h3>Страница проекта:</h3>
+<h3>РЎС‚СЂР°РЅРёС†Р° РїСЂРѕРµРєС‚Р°:</h3>
 <a class="body_link" href="https://github.com/FarGroup/FarManager">https://github.com/FarGroup/FarManager</a><br><br>
 
-<h3>Баг трекер:</h3>
+<h3>Р‘Р°Рі С‚СЂРµРєРµСЂ:</h3>
 <a class="body_link" href="https://bugs.farmanager.com/">https://bugs.farmanager.com/</a><br><br>
 
-<h3>Рассылка для разработчиков (русскоязычная):</h3>
+<h3>Р Р°СЃСЃС‹Р»РєР° РґР»СЏ СЂР°Р·СЂР°Р±РѕС‚С‡РёРєРѕРІ (СЂСѓСЃСЃРєРѕСЏР·С‹С‡РЅР°СЏ):</h3>
 <a class="body_link" href="https://groups.google.com/group/fardev">https://groups.google.com/group/fardev</a><br>
 <a class="body_link" href="mailto:fardev@googlegroups.com">fardev@googlegroups.com</a><br><br>
 
-<h3>Рассылка для разработчиков (англоязычная):</h3>
+<h3>Р Р°СЃСЃС‹Р»РєР° РґР»СЏ СЂР°Р·СЂР°Р±РѕС‚С‡РёРєРѕРІ (Р°РЅРіР»РѕСЏР·С‹С‡РЅР°СЏ):</h3>
 <a class="body_link" href="https://groups.google.com/group/fardeven">https://groups.google.com/group/fardeven</a><br>
 <a class="body_link" href="mailto:fardeven@googlegroups.com">fardeven@googlegroups.com</a><br><br>
 
-<h3>Рассылка коммитов:</h3>
+<h3>Р Р°СЃСЃС‹Р»РєР° РєРѕРјРјРёС‚РѕРІ:</h3>
 <a class="body_link" href="https://groups.google.com/group/farcommits">https://groups.google.com/group/farcommits</a><br>
 <a class="body_link" href="mailto:farcommits@googlegroups.com">farcommits@googlegroups.com</a><br><br>
 

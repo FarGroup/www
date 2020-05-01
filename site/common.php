@@ -8,8 +8,6 @@
 		GLOBAL $current_page;
 		GLOBAL $header_descriptions;
 
-		//<!--<meta http-equiv=\"Cache-Control\" content=\"no-cache\">-->
-
 		print "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0 Transitional//EN\">
 			<html>
 			<head>
@@ -21,7 +19,7 @@
 			</script>
 			<script async src='https://www.google-analytics.com/analytics.js'></script>
 			<!-- End Google Analytics -->
-			<meta http-equiv=\"Content-Type\" content=\"text/html; charset=windows-1251\">
+			<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">
 			<link rel=\"STYLESHEET\" href=\"css/default.css\" type=\"text/css\">
 			<link rel=\"stylesheet\" type=\"text/css\" href=\"css/lightbox.css\" media=\"screen\">
 
@@ -111,15 +109,13 @@
 					<td align=\"right\" valign=\"top\" class=\"body_comment\">";
 
 					if ( !strcmp ($lang, "ru") )
-						print "русский&nbsp;|&nbsp;<a class=\"body_comment\" href=\"".$current_page_string."?l=en\">english</a>";
+						print "СЂСѓСЃСЃРєРёР№&nbsp;|&nbsp;<a class=\"body_comment\" href=\"".$current_page_string."?l=en\">english</a>";
 					else
-						print "<a class=\"body_comment\" href=\"".$current_page_string."?l=ru\">русский</a>&nbsp;|&nbsp;english";
+						print "<a class=\"body_comment\" href=\"".$current_page_string."?l=ru\">СЂСѓСЃСЃРєРёР№</a>&nbsp;|&nbsp;english";
 
 		print "</td></tr>
 				</table>
 			</div>";
-
-//<td align=right valign=top><a class=\"body_comment\" href=\"".$current_page_string."?l=ru\">русский</a><font size=1>|</font><a class=\"body_comment\" href=\"".$current_page_string."?l=en\">english</a></td>
 
 		print "<div align=\"right\"><h2>".$header_descriptions[$current_page]."</h2></div>";
 		print "<div class=\"footer\">&nbsp;</div>";

@@ -1,21 +1,21 @@
 <div>
-	<h2>Ссылки</h2>
+	<h2>РЎСЃС‹Р»РєРё</h2>
 
 	<ul>
 	<li><a class="body_link" href="https://plugring.farmanager.com">https://plugring.farmanager.com</a><br>
-	сайт PlugRinG&nbsp;&#151; «полное собрание сочинений» доступных плагинов.<br><br>
+	СЃР°Р№С‚ PlugRinG&nbsp;&#151; В«РїРѕР»РЅРѕРµ СЃРѕР±СЂР°РЅРёРµ СЃРѕС‡РёРЅРµРЅРёР№В» РґРѕСЃС‚СѓРїРЅС‹С… РїР»Р°РіРёРЅРѕРІ.<br><br>
 
 	<li><a class="body_link" href="https://api.farmanager.com/">https://api.farmanager.com/</a><br>
-			«Programming FAR plugins&nbsp;&#151; Encyclopedia for Developers».<br><br>
+			В«Programming FAR plugins&nbsp;&#151; Encyclopedia for DevelopersВ».<br><br>
 
 	<li><a class="body_link" href="https://forum.farmanager.com">https://forum.farmanager.com</a><br>
-	Официальный интернет-форум по Far Manager.<br><br>
+	РћС„РёС†РёР°Р»СЊРЅС‹Р№ РёРЅС‚РµСЂРЅРµС‚-С„РѕСЂСѓРј РїРѕ Far Manager.<br><br>
 
 	<li><a class="body_link" href="news:fido7.far.support">news:fido7.far.support</a>,
 	<a class="body_link" href="news:fido7.far.development">news:fido7.far.development</a><br>
-	конференции USENET.<br><br>
+	РєРѕРЅС„РµСЂРµРЅС†РёРё USENET.<br><br>
 
 	<li><a class="body_link" href="http://colorer.sf.net">http://colorer.sf.net</a><br>
-	Страница плагина Colorer.<br><br>
+	РЎС‚СЂР°РЅРёС†Р° РїР»Р°РіРёРЅР° Colorer.<br><br>
 </ul>
 </div>

@@ -6,7 +6,7 @@
         PlugRinG site&nbsp;&#151; a comprehensive archive of Far Manager plugins.<br><br>
 
 	<li><a class="body_link" href="https://api.farmanager.com/" target="_blank">https://api.farmanager.com/</a><br>
-			«Programming FAR plugins&nbsp;&#151; Encyclopedia for Developers».<br><br>
+			Â«Programming FAR plugins&nbsp;&#151; Encyclopedia for DevelopersÂ».<br><br>
 
   <li><a class="body_link" href="https://forum.farmanager.com/">https://forum.farmanager.com/</a><br>
     Official Far Manager internet forum.<br><br>
