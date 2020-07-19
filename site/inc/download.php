@@ -1,3 +1,37 @@
+<?php
+	function repository_base_url()
+	{
+		return "https://github.com/FarGroup/FarManager/";
+	}
+
+	function artefact_url($kind, $type, $name, $lang)
+	{
+		return "<a class=\"body_link\" href=\"" . $kind . "/" . $name . "\"><img style=\"margin:0px 10px 0px 0px\" src=\"img/" . $type . "." . $lang . ".png\"" . "alt=\"download\"></a>";
+	}
+
+	function commit_url($commit)
+	{
+		return "<a class=\"body_comment\" href=\"" . repository_base_url() . "commit/" . $commit . "\">" . $commit . "</a>";
+	}
+
+	function changelog_url($name, $label)
+	{
+		return "<a class=\"body_comment\" href=\"" . repository_base_url() . "raw/master/far/" . $name . "\">" . $label . "</a>";
+	}
+
+	function make_entry($kind, $bitness, $lang, $dl_last_change)
+	{
+		include($kind . "/FarW." . $bitness . ".php");
+		return
+			"<li><b>Far Manager v" . $farnew_major . "." . $farnew_minor . " build " . $farnew_build . " " . $farnew_platform . "</b> (" . $farnew_date . ")" .
+			"<div class=\"body_comment\">" . $dl_last_change . ": " . commit_url($farnew_scm_revision) . "</div><br/>" .
+			artefact_url($kind, "archive", $farnew_arc, $lang) .
+			artefact_url($kind, "msi", $farnew_msi, $lang) .
+			artefact_url($kind, "pdb", $farnew_pdb, $lang) .
+			"<br/><br/></li>";
+	}
+?>
+
 <br/>
 
 
@@ -5,78 +39,16 @@
 
 <div>
     <ul>
-	<li>
-		<?php include("files/FarW."."32".".php");?>
-	    <b>Far Manager v<?php print $farnew_major;?>.<?php print $farnew_minor;?> build <?php print $farnew_build;?> <?php print $farnew_platform;?></b> (<?php print $farnew_date;?>)
-		<br/><br/>
-	    <a class="body_link" href="files/<?php print $farnew_arc;?>">
-		<img border="0" src="img/archive.<?php print $lang;?>.png" alt="download"></a>
-	    &nbsp;
-	    <a class="body_link" href="files/<?php print $farnew_msi;?>">
-		<img border="0" src="img/msi.<?php print $lang;?>.png" alt="download"></a>
-	    &nbsp;
-	    <a class="body_link" href="files/<?php print $farnew_pdb;?>">
-		<img border="0" src="img/pdb.<?php print $lang;?>.png" alt="download"></a>
-	    <br/>
-	    <br/>
-	</li>
-	<li>
-		<?php include("files/FarW."."64".".php");?>
-	    <b>Far Manager v<?php print $farnew_major;?>.<?php print $farnew_minor;?> build <?php print $farnew_build;?> <?php print $farnew_platform;?></b> (<?php print $farnew_date;?>)
-		<br/><br/>
-	    <a class="body_link" href="files/<?php print $farnew_arc;?>">
-		<img border="0" src="img/archive.<?php print $lang;?>.png" alt="download"></a>
-	    &nbsp;
-	    <a class="body_link" href="files/<?php print $farnew_msi;?>">
-		<img border="0" src="img/msi.<?php print $lang;?>.png" alt="download"></a>
-	    &nbsp;
-	    <a class="body_link" href="files/<?php print $farnew_pdb;?>">
-		<img border="0" src="img/pdb.<?php print $lang;?>.png" alt="download"></a>
-	    <br/>
-	    <br/>
-	</li>
-	</ul>
+	<?php print make_entry("files", "32", $lang, $dl_last_change); ?>
+	<?php print make_entry("files", "64", $lang, $dl_last_change); ?>
+    </ul>
 </div>
-<h2><?php print $dl_nightly_builds;?>&nbsp;&nbsp;<a class="body_comment" href="https://github.com/FarGroup/FarManager/raw/master/far/<?php print $dl_changelog2_file;?>"><?php print $dl_full_changelog;?></a></h2>
+<h2><?php print $dl_nightly_builds . "&nbsp;&nbsp;" . changelog_url($dl_changelog2_file, $dl_full_changelog); ?></h2>
 <div>
     <ul>
-	<li>
-	    <?php include("nightly/FarW."."32".".php");?>
-	    <b>Far Manager v<?php print $farnew_major;?>.<?php print $farnew_minor;?> build <?php print $farnew_build;?> <?php print $farnew_platform;?></b> (<?php print $farnew_date;?>)
-	    <div class="body_comment">
-		<?php print $dl_last_change;?>: <?php print $farnew_lastchange;?>
-	    </div>
-	    <br/>
-	    <a class="body_link" href="nightly/<?php print $farnew_arc;?>">
-		<img border="0" src="img/archive.<?php print $lang;?>.png" alt="download"></a>
-	    &nbsp;
-	    <a class="body_link" href="nightly/<?php print $farnew_msi;?>">
-		<img border="0" src="img/msi.<?php print $lang;?>.png" alt="download"></a>
-	    &nbsp;
-	    <a class="body_link" href="nightly/<?php print $farnew_pdb;?>">
-		<img border="0" src="img/pdb.<?php print $lang;?>.png" alt="download"></a>
-	    <br/>
-	    <br/>
-	</li>
-	<li>
-		<?php include("nightly/FarW."."64".".php");?>
-	    <b>Far Manager v<?php print $farnew_major;?>.<?php print $farnew_minor;?> build <?php print $farnew_build;?> <?php print $farnew_platform;?></b> (<?php print $farnew_date;?>)
-	    <div class="body_comment">
-		<?php print $dl_last_change;?>: <?php print $farnew_lastchange;?>
-	    </div>
-	    <br/>
-	    <a class="body_link" href="nightly/<?php print $farnew_arc;?>">
-		<img border="0" src="img/archive.<?php print $lang;?>.png" alt="download"></a>
-	    &nbsp;
-	    <a class="body_link" href="nightly/<?php print $farnew_msi;?>">
-		<img border="0" src="img/msi.<?php print $lang;?>.png" alt="download"></a>
-	    &nbsp;
-	    <a class="body_link" href="nightly/<?php print $farnew_pdb;?>">
-		<img border="0" src="img/pdb.<?php print $lang;?>.png" alt="download"></a>
-	    <br/>
-	    <br/>
-	</li>
-	</ul>
+	<?php print make_entry("nightly", "32", $lang, $dl_last_change); ?>
+	<?php print make_entry("nightly", "64", $lang, $dl_last_change); ?>
+    </ul>
 </div>
 
 <div><h2><?php print $dl_history_msg;?></h2>
