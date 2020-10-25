@@ -2,6 +2,7 @@
 $dl_history_msg = "Полное собрание сочинений";
 $dl_stable_builds = "Стабильные сборки";
 $dl_nightly_builds = "Ночные сборки";
+$dl_ci_builds = "CI сборки";
 $dl_old_versions = "Старые версии";
 $dl_last_change = "Последнее изменение";
 $dl_size = "размер";

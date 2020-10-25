@@ -34,15 +34,14 @@
 
 <br/>
 
-
 <h2><?php print $dl_stable_builds;?></h2>
-
 <div>
     <ul>
 	<?php print make_entry("files", "32", $lang, $dl_last_change); ?>
 	<?php print make_entry("files", "64", $lang, $dl_last_change); ?>
     </ul>
 </div>
+
 <h2><?php print $dl_nightly_builds . "&nbsp;&nbsp;" . changelog_url($dl_changelog2_file, $dl_full_changelog); ?></h2>
 <div>
     <ul>
@@ -50,6 +49,15 @@
 	<?php print make_entry("nightly", "64", $lang, $dl_last_change); ?>
     </ul>
 </div>
+
+<h2><?php print $dl_ci_builds;?></h2>
+<div>
+    <ul>
+	<li><?php print "<a class=\"body_link\" href=\"" . repository_base_url() . "/releases\">GitHub</a>" ?></li>
+    </ul>
+</div>
+
+<br/>
 
 <div><h2><?php print $dl_history_msg;?></h2>
 <div>
