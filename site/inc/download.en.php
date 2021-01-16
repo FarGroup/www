@@ -8,5 +8,5 @@ $dl_last_change = "Last change";
 $dl_size = "size";
 $dl_bytes = "byte(s)";
 $dl_full_changelog = "full changelog";
-$dl_changelog2_file = "changelog_eng"
+$dl_changelog2_file = "changelog"
 ?>
