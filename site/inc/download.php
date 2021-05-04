@@ -53,7 +53,7 @@
 <h2><?php print $dl_ci_builds;?></h2>
 <div>
     <ul>
-	<li><?php print "<a class=\"body_link\" href=\"" . repository_base_url() . "/releases\">GitHub</a>" ?></li>
+	<li><?php print "<a class=\"body_link\" href=\"" . repository_base_url() . "releases\">GitHub</a>" ?></li>
     </ul>
 </div>
 
