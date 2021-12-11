@@ -39,6 +39,7 @@
     <ul>
 	<?php print make_entry("files", "32", $lang, $dl_last_change); ?>
 	<?php print make_entry("files", "64", $lang, $dl_last_change); ?>
+	<?php print make_entry("files", "ARM64", $lang, $dl_last_change); ?>
     </ul>
 </div>
 
@@ -47,6 +48,7 @@
     <ul>
 	<?php print make_entry("nightly", "32", $lang, $dl_last_change); ?>
 	<?php print make_entry("nightly", "64", $lang, $dl_last_change); ?>
+	<?php print make_entry("nightly", "ARM64", $lang, $dl_last_change); ?>
     </ul>
 </div>
 

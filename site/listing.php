@@ -18,87 +18,50 @@ print "
 		</td>
 	</tr>
 	<tr>
+";
+
+$platform = array("x64", "x86", "ARM64");
+
+foreach ($platform as &$p)
+{
+	print "
 		<td align=\"center\">
-			<h3>x64 msi</h3>
+			<h3>{$p} msi</h3>
 		</td>
 		<td align=\"center\">
-			<h3>x64 7z</h3>
+			<h3>{$p} 7z</h3>
 		</td>
 		<td align=\"center\">
-			<h3>x64 pdb</h3>
-		</td>
-		<td align=\"center\">
-			<h3>x86 msi</h3>
-		</td>
-		<td align=\"center\">
-			<h3>x86 7z</h3>
-		</td>
-		<td align=\"center\">
-			<h3>x86 pdb</h3>
-		</td>
+			<h3>{$p} pdb</h3>
+		</td>";
+}
+
+print "
 	</tr>
 	<tr valign=\"top\">
-		<td>
 ";
 
-foreach (array_reverse(glob($directory."/Far30b*.x64.????????.msi")) as $filename)
+$ext = array("msi", "7z", "pdb.7z");
+
+foreach ($platform as &$p)
 {
-	print "			<a class=\"body_link\" href=\"".$filename."\">".basename($filename)."</a><br>
-";
+	foreach ($ext as &$e)
+	{
+		print "
+		<td>";
+
+		foreach (array_reverse(glob($directory."/Far30b*.{$p}.????????.{$e}")) as $filename)
+		{
+			print "
+			<a class=\"body_link\" href=\"".$filename."\">".basename($filename)."</a><br>";
+		}
+
+		print "
+		</td>";
+	}
 }
 
-	print "		</td>
-		<td>
-";
-
-foreach (array_reverse(glob($directory."/Far30b*.x64.????????.7z")) as $filename)
-{
-	print "			<a class=\"body_link\" href=\"".$filename."\">".basename($filename)."</a><br>
-";
-}
-
-
-	print "		</td>
-		<td>
-";
-
-foreach (array_reverse(glob($directory."/Far30b*.x64.????????.pdb.7z")) as $filename)
-{
-	print "			<a class=\"body_link\" href=\"".$filename."\">".basename($filename)."</a><br>
-";
-}
-
-	print "		</td>
-		<td>
-";
-
-foreach (array_reverse(glob($directory."/Far30b*.x86.????????.msi")) as $filename)
-{
-	print "			<a class=\"body_link\" href=\"".$filename."\">".basename($filename)."</a><br>
-";
-}
-
-	print "		</td>
-		<td>
-";
-
-foreach (array_reverse(glob($directory."/Far30b*.x86.????????.7z")) as $filename)
-{
-	print "			<a class=\"body_link\" href=\"".$filename."\">".basename($filename)."</a><br>
-";
-}
-
-	print "		</td>
-		<td>
-";
-
-foreach (array_reverse(glob($directory."/Far30b*.x86.????????.pdb.7z")) as $filename)
-{
-	print "			<a class=\"body_link\" href=\"".$filename."\">".basename($filename)."</a><br>
-";
-}
-
-	print "		</td>
+print "
 	</tr>
 </table>
 ";
