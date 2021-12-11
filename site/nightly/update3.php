@@ -6,8 +6,8 @@
   {
     if ($_REQUEST["p"]=="64")
       $platform = "64";
-    //else if ($_REQUEST["p"]=="IA64")
-      //$platform = "IA64";
+    else if ($_REQUEST["p"]=="ARM64")
+      $platform = "ARM64";
   }
 
   include ("FarW." . $platform . ".php");
