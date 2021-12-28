@@ -5,7 +5,7 @@
 	<p><table width="100%" border="0" cellpadding="0" cellspacing="0">
 		<tr>
 			<td width="70%" valign=top>
-				<p>Far Manager is a program for managing files and archives in <acronym title="2000/XP/2003/Vista/2008/7">Windows operating systems</acronym>.
+				<p>Far Manager is a program for managing files and archives in Windows operating systems.
 				Far Manager works in text mode and provides a simple and intuitive interface for performing
 				most of the necessary actions:
 
