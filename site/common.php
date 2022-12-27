@@ -33,7 +33,7 @@
 			<link rel=\"icon\" sizes=\"16x16\" href=\"https://farmanager.com/favicon/16.png\" />
 
 			<title>Far Manager Official Site : ".$header_descriptions[$current_page]."</title>
-			<script type=\"text/javascript\" src=\"jscript/jquery.js\" defer></script>
+			<script type=\"text/javascript\" src=\"jscript/jquery.js\"></script>
 			<script type=\"text/javascript\" src=\"jscript/jquery.lightbox.js\" defer></script>
 			</head>
 			<body>";
